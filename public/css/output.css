@@ -996,13 +996,13 @@ body {
   outline-offset: 2px;
 }
 
+.focus\:outline:focus {
+  outline-style: solid;
+}
+
 @media (min-width: 480px) {
   .sm\:w-auto {
     width: auto;
-  }
-
-  .sm\:self-center {
-    align-self: center;
   }
 }
 
